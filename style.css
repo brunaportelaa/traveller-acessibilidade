@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'OpenDyslexic', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #efefef;
+}
+
+.nav-header {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.nav-header a {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.nav-header a:hover {
+    color: #4d4d4d;
+    text-decoration: underline;
+}   
+
+.menu-item {
+    padding: 0 20px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    width: 80vmax;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    width: 60%;
+    margin-top: 120px;
+}
+
+.top input {
+    width:80%;
+    height: 40px;
+    margin-top: 40px;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.nav-menu {
+    width: 80%;
+    display: flex;
+}
+
+.nav-menu-item {
+    height: 55px;
+    width: 25%;
+    margin: 15px 5px;
+    border-radius: 10px;
+}
+
+.blue {
+    background-color: #0094f0;
+}
+
+.purple {
+    background-color: #8940b4;
+}
+
+.pink {
+    background-color: #cc225e;
+}
+
+.green {
+    background-color: #46a849;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-img {
+    width: 30%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.city p {
+    font-size: 1.2em;
+}
+
+.results {
+    width: 65%;
+    margin: auto;
+    padding: 2%;
+    background-color: white;
+    margin-bottom: 60px;
+    border-radius: 15px;
+
+}
+
+.underline {
+    height: 2px;
+    width: 165px;
+    margin-top: 5px;
+}
+
+.hospedagem-results {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.result-item {
+    width: 30%;
+    margin-right: 10px;
+    border: 1px solid #c4c4c4;
+    padding: 5px;  
+    border-radius: 15px;  
+}
+
+.result-item p{
+    font-size: small;
+}
+
+.result-item img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px 12px;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.result-group {
+    margin-top: 50px;
+}
